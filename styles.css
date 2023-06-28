@@ -22,12 +22,19 @@ a {
 
 img{
   width: 600px;
-  display: block;
-  margin: auto;
+  /*display: block;
+  margin: auto;*/
 }
 
 .imagediv{
-  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 iframe{
@@ -53,8 +60,8 @@ footer{
 }
 
 .liste1{
-  position: absolute;
-  top: 210px;
+  display: flex;
+  flex-direction: column;
 }
 
 .red {
